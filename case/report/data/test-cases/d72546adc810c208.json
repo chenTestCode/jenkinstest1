@@ -1,0 +1,122 @@
+{
+  "uid" : "d72546adc810c208",
+  "name" : "test_pass_empty",
+  "fullName" : "test_reg.Test_passwored#test_pass_empty",
+  "historyId" : "8a09f2f12e68cbe6672169d0a13f62aa",
+  "time" : {
+    "start" : 1575984946665,
+    "stop" : 1575984949088,
+    "duration" : 2423
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start",
+    "time" : {
+      "start" : 1575984945966,
+      "stop" : 1575984946664,
+      "duration" : 698
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1575984919092,
+      "stop" : 1575984924221,
+      "duration" : 5129
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1575984945966,
+      "stop" : 1575984945966,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bf97859c8aad7e97",
+      "name" : "log",
+      "source" : "bf97859c8aad7e97.txt",
+      "type" : "text/plain",
+      "size" : 6001
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "注册模块密码功能"
+  }, {
+    "name" : "story",
+    "value" : "密码为空"
+  }, {
+    "name" : "tag",
+    "value" : "error"
+  }, {
+    "name" : "suite",
+    "value" : "test_reg"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_passwored"
+  }, {
+    "name" : "host",
+    "value" : "SC-201902191315"
+  }, {
+    "name" : "thread",
+    "value" : "12712-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_reg"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "error" ]
+  },
+  "source" : "d72546adc810c208.json",
+  "parameterValues" : [ ]
+}

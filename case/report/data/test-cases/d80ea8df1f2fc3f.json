@@ -1,0 +1,140 @@
+{
+  "uid" : "d80ea8df1f2fc3f",
+  "name" : "test_username_error",
+  "fullName" : "test_reg.Test_suti#test_username_error",
+  "historyId" : "d67e2331603d508d89d675bff9c9f1ad",
+  "time" : {
+    "start" : 1575984937328,
+    "stop" : 1575984939733,
+    "duration" : 2405
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1575984936509,
+      "stop" : 1575984936509,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1575984919092,
+      "stop" : 1575984924221,
+      "duration" : 5129
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "start",
+    "time" : {
+      "start" : 1575984936509,
+      "stop" : 1575984937328,
+      "duration" : 819
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "验证错误的注册",
+      "time" : {
+        "start" : 1575984937329,
+        "stop" : 1575984939733,
+        "duration" : 2404
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"adbceb2cc67295837837290e1e20837b\")>"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "c55866c2b1e98dd4",
+      "name" : "log",
+      "source" : "c55866c2b1e98dd4.txt",
+      "type" : "text/plain",
+      "size" : 4660
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "验证已存在的用户名"
+  }, {
+    "name" : "feature",
+    "value" : "注册模块"
+  }, {
+    "name" : "tag",
+    "value" : "error"
+  }, {
+    "name" : "suite",
+    "value" : "test_reg"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_suti"
+  }, {
+    "name" : "host",
+    "value" : "SC-201902191315"
+  }, {
+    "name" : "thread",
+    "value" : "12712-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_reg"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "error" ]
+  },
+  "source" : "d80ea8df1f2fc3f.json",
+  "parameterValues" : [ ]
+}

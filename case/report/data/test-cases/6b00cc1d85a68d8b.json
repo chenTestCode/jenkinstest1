@@ -1,0 +1,134 @@
+{
+  "uid" : "6b00cc1d85a68d8b",
+  "name" : "test_phone[tytyew-1223456-1223456--请填写手机号码]",
+  "fullName" : "test_reg#test_phone",
+  "historyId" : "2200edd8227978788beb42ce60b1ec7b",
+  "time" : {
+    "start" : 1575984965965,
+    "stop" : 1575984968643,
+    "duration" : 2678
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start",
+    "time" : {
+      "start" : 1575984965238,
+      "stop" : 1575984965963,
+      "duration" : 725
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1575984965238,
+      "stop" : 1575984965238,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1575984919092,
+      "stop" : 1575984924221,
+      "duration" : 5129
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "630c5f224791a842",
+      "name" : "log",
+      "source" : "630c5f224791a842.txt",
+      "type" : "text/plain",
+      "size" : 8712
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "注册模块手机功能"
+  }, {
+    "name" : "story",
+    "value" : "验证确认手机输入"
+  }, {
+    "name" : "tag",
+    "value" : "error"
+  }, {
+    "name" : "suite",
+    "value" : "test_reg"
+  }, {
+    "name" : "host",
+    "value" : "SC-201902191315"
+  }, {
+    "name" : "thread",
+    "value" : "12712-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_reg"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "msg",
+    "value" : "'请填写手机号码'"
+  }, {
+    "name" : "password",
+    "value" : "'1223456'"
+  }, {
+    "name" : "password2",
+    "value" : "'1223456'"
+  }, {
+    "name" : "phone",
+    "value" : "''"
+  }, {
+    "name" : "usuranme",
+    "value" : "'tytyew'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "error" ]
+  },
+  "source" : "6b00cc1d85a68d8b.json",
+  "parameterValues" : [ "'请填写手机号码'", "'1223456'", "'1223456'", "''", "'tytyew'" ]
+}

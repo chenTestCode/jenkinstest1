@@ -1,0 +1,201 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_reg",
+    "children" : [ {
+      "name" : "test_wer",
+      "uid" : "8c94fb56402e22e4",
+      "parentUid" : "d732db858f0825527fea4f7044d06a1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575984925219,
+        "stop" : 1575984936499,
+        "duration" : 11280
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_username_error",
+      "uid" : "d80ea8df1f2fc3f",
+      "parentUid" : "d732db858f0825527fea4f7044d06a1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575984937328,
+        "stop" : 1575984939733,
+        "duration" : 2405
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_username_empty",
+      "uid" : "89140bba799fe33f",
+      "parentUid" : "d732db858f0825527fea4f7044d06a1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575984940531,
+        "stop" : 1575984942817,
+        "duration" : 2286
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_username_len",
+      "uid" : "5ebd020b93fe8613",
+      "parentUid" : "d732db858f0825527fea4f7044d06a1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575984943640,
+        "stop" : 1575984945959,
+        "duration" : 2319
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_pass_empty",
+      "uid" : "d72546adc810c208",
+      "parentUid" : "d732db858f0825527fea4f7044d06a1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575984946665,
+        "stop" : 1575984949088,
+        "duration" : 2423
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_pass_sort",
+      "uid" : "b70b96981bf34a2",
+      "parentUid" : "d732db858f0825527fea4f7044d06a1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575984949898,
+        "stop" : 1575984952341,
+        "duration" : 2443
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_pass_long",
+      "uid" : "7b9cf1578d264652",
+      "parentUid" : "d732db858f0825527fea4f7044d06a1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575984953004,
+        "stop" : 1575984955535,
+        "duration" : 2531
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_passwordCon[tytyew-1223456--请确认密码]",
+      "uid" : "e3c9267c1e7a8c73",
+      "parentUid" : "d732db858f0825527fea4f7044d06a1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575984956195,
+        "stop" : 1575984958758,
+        "duration" : 2563
+      },
+      "flaky" : false,
+      "parameters" : [ "'请确认密码'", "'1223456'", "''", "'tytyew'" ]
+    }, {
+      "name" : "test_passwordCon[ytyweu-123456-425-您两次输入的账号密码不一致！]",
+      "uid" : "c49e13c960bd24a0",
+      "parentUid" : "d732db858f0825527fea4f7044d06a1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575984959408,
+        "stop" : 1575984961910,
+        "duration" : 2502
+      },
+      "flaky" : false,
+      "parameters" : [ "'您两次输入的账号密码不一致！'", "'123456'", "'425'", "'ytyweu'" ]
+    }, {
+      "name" : "test_passwordCon[uewiiew-76237ew-qwertyuio2345678-您两次输入的账号密码不一致！]",
+      "uid" : "bc0c587617c24f07",
+      "parentUid" : "d732db858f0825527fea4f7044d06a1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575984962605,
+        "stop" : 1575984965224,
+        "duration" : 2619
+      },
+      "flaky" : false,
+      "parameters" : [ "'您两次输入的账号密码不一致！'", "'76237ew'", "'qwertyuio2345678'", "'uewiiew'" ]
+    }, {
+      "name" : "test_phone[tytyew-1223456-1223456--请填写手机号码]",
+      "uid" : "6b00cc1d85a68d8b",
+      "parentUid" : "d732db858f0825527fea4f7044d06a1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575984965965,
+        "stop" : 1575984968643,
+        "duration" : 2678
+      },
+      "flaky" : false,
+      "parameters" : [ "'请填写手机号码'", "'1223456'", "'1223456'", "''", "'tytyew'" ]
+    }, {
+      "name" : "test_phone[ytyweu-123456-1223456-123-手机号错误！]",
+      "uid" : "16261cea88f26cde",
+      "parentUid" : "d732db858f0825527fea4f7044d06a1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575984969354,
+        "stop" : 1575984971998,
+        "duration" : 2644
+      },
+      "flaky" : false,
+      "parameters" : [ "'手机号错误！'", "'123456'", "'1223456'", "'123'", "'ytyweu'" ]
+    }, {
+      "name" : "test_phone[uewiiew-76237ew-76237ew-12345678901-手机号错误！]",
+      "uid" : "961ed4958f5a8aa5",
+      "parentUid" : "d732db858f0825527fea4f7044d06a1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575984972706,
+        "stop" : 1575984975445,
+        "duration" : 2739
+      },
+      "flaky" : false,
+      "parameters" : [ "'手机号错误！'", "'76237ew'", "'76237ew'", "'12345678901'", "'uewiiew'" ]
+    }, {
+      "name" : "test_email[tytyew-1223456-1223456-18765326712--请填写邮箱]",
+      "uid" : "e5bf22da167b87b4",
+      "parentUid" : "d732db858f0825527fea4f7044d06a1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575984976076,
+        "stop" : 1575984978913,
+        "duration" : 2837
+      },
+      "flaky" : false,
+      "parameters" : [ "''", "'请填写邮箱'", "'1223456'", "'1223456'", "'18765326712'", "'tytyew'" ]
+    }, {
+      "name" : "test_email[ytyweu-123456-123456-18765326712-56-邮箱格式错误！]",
+      "uid" : "ba389dd89f8b77ce",
+      "parentUid" : "d732db858f0825527fea4f7044d06a1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575984979566,
+        "stop" : 1575984982367,
+        "duration" : 2801
+      },
+      "flaky" : false,
+      "parameters" : [ "'56'", "'邮箱格式错误！'", "'123456'", "'123456'", "'18765326712'", "'ytyweu'" ]
+    }, {
+      "name" : "test_email[uewiiew-76237ew-76237ew-18765326712-432@123.com-通过信息验证]",
+      "uid" : "72c5f5005fd7f0c8",
+      "parentUid" : "d732db858f0825527fea4f7044d06a1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575984982974,
+        "stop" : 1575984985861,
+        "duration" : 2887
+      },
+      "flaky" : false,
+      "parameters" : [ "'432@123.com'", "'通过信息验证'", "'76237ew'", "'76237ew'", "'18765326712'", "'uewiiew'" ]
+    } ],
+    "uid" : "d732db858f0825527fea4f7044d06a1b"
+  } ]
+}

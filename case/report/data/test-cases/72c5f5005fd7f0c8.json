@@ -1,0 +1,137 @@
+{
+  "uid" : "72c5f5005fd7f0c8",
+  "name" : "test_email[uewiiew-76237ew-76237ew-18765326712-432@123.com-通过信息验证]",
+  "fullName" : "test_reg#test_email",
+  "historyId" : "b96f2a001f4dfb164b8da028ae38f244",
+  "time" : {
+    "start" : 1575984982974,
+    "stop" : 1575984985861,
+    "duration" : 2887
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1575984982385,
+      "stop" : 1575984982385,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "start",
+    "time" : {
+      "start" : 1575984982385,
+      "stop" : 1575984982972,
+      "duration" : 587
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1575984919092,
+      "stop" : 1575984924221,
+      "duration" : 5129
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fa6e9b1728525804",
+      "name" : "log",
+      "source" : "fa6e9b1728525804.txt",
+      "type" : "text/plain",
+      "size" : 10235
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "验证邮箱输入"
+  }, {
+    "name" : "feature",
+    "value" : "注册模块邮箱功能"
+  }, {
+    "name" : "tag",
+    "value" : "error"
+  }, {
+    "name" : "suite",
+    "value" : "test_reg"
+  }, {
+    "name" : "host",
+    "value" : "SC-201902191315"
+  }, {
+    "name" : "thread",
+    "value" : "12712-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_reg"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "email",
+    "value" : "'432@123.com'"
+  }, {
+    "name" : "msg",
+    "value" : "'通过信息验证'"
+  }, {
+    "name" : "password",
+    "value" : "'76237ew'"
+  }, {
+    "name" : "password2",
+    "value" : "'76237ew'"
+  }, {
+    "name" : "phone",
+    "value" : "'18765326712'"
+  }, {
+    "name" : "usuranme",
+    "value" : "'uewiiew'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "error" ]
+  },
+  "source" : "72c5f5005fd7f0c8.json",
+  "parameterValues" : [ "'432@123.com'", "'通过信息验证'", "'76237ew'", "'76237ew'", "'18765326712'", "'uewiiew'" ]
+}

@@ -1,0 +1,78 @@
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52125/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:225 Starting new HTTP connection (1): 127.0.0.1:52125
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:437 http://127.0.0.1:52125 "POST /session HTTP/1.1" 200 684
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52125/session/adbceb2cc67295837837290e1e20837b/timeouts {"implicit": 8000}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:437 http://127.0.0.1:52125 "POST /session/adbceb2cc67295837837290e1e20837b/timeouts HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52125/session/adbceb2cc67295837837290e1e20837b/url {"url": "http://127.0.0.1/index.php"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:437 http://127.0.0.1:52125 "POST /session/adbceb2cc67295837837290e1e20837b/url HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52125/session/adbceb2cc67295837837290e1e20837b/url {"url": "http://127.0.0.1/index.php?m=user&c=public&a=reg"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:437 http://127.0.0.1:52125 "POST /session/adbceb2cc67295837837290e1e20837b/url HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52125/session/adbceb2cc67295837837290e1e20837b/element {"using": "css selector", "value": "[name=\"username\"]"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:437 http://127.0.0.1:52125 "POST /session/adbceb2cc67295837837290e1e20837b/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:custom_logger.py:70 [INFO 2019-12-10 21:35:25]Element Found with locator: username locator_type name
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52125/session/adbceb2cc67295837837290e1e20837b/element/a79348bb-a999-4b5d-9562-1014461c1758/value {"text": "chen213525", "value": ["c", "h", "e", "n", "2", "1", "3", "5", "2", "5"], "id": "a79348bb-a999-4b5d-9562-1014461c1758"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:437 http://127.0.0.1:52125 "POST /session/adbceb2cc67295837837290e1e20837b/element/a79348bb-a999-4b5d-9562-1014461c1758/value HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:custom_logger.py:70 [INFO 2019-12-10 21:35:25]Send data on element with locator: username locator_type: name
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52125/session/adbceb2cc67295837837290e1e20837b/element {"using": "css selector", "value": "[name=\"password\"]"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:437 http://127.0.0.1:52125 "POST /session/adbceb2cc67295837837290e1e20837b/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:custom_logger.py:70 [INFO 2019-12-10 21:35:25]Element Found with locator: password locator_type name
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52125/session/adbceb2cc67295837837290e1e20837b/element/181c8086-7e11-49e0-8637-ac4dcd580df0/value {"text": "123456", "value": ["1", "2", "3", "4", "5", "6"], "id": "181c8086-7e11-49e0-8637-ac4dcd580df0"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:437 http://127.0.0.1:52125 "POST /session/adbceb2cc67295837837290e1e20837b/element/181c8086-7e11-49e0-8637-ac4dcd580df0/value HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:custom_logger.py:70 [INFO 2019-12-10 21:35:25]Send data on element with locator: password locator_type: name
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52125/session/adbceb2cc67295837837290e1e20837b/element {"using": "css selector", "value": "[name=\"userpassword2\"]"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:437 http://127.0.0.1:52125 "POST /session/adbceb2cc67295837837290e1e20837b/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:custom_logger.py:70 [INFO 2019-12-10 21:35:25]Element Found with locator: userpassword2 locator_type name
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52125/session/adbceb2cc67295837837290e1e20837b/element/458da3cb-d9e0-4586-b5fc-70236c3ad8a6/value {"text": "123456", "value": ["1", "2", "3", "4", "5", "6"], "id": "458da3cb-d9e0-4586-b5fc-70236c3ad8a6"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:437 http://127.0.0.1:52125 "POST /session/adbceb2cc67295837837290e1e20837b/element/458da3cb-d9e0-4586-b5fc-70236c3ad8a6/value HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:custom_logger.py:70 [INFO 2019-12-10 21:35:25]Send data on element with locator: userpassword2 locator_type: name
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52125/session/adbceb2cc67295837837290e1e20837b/element {"using": "css selector", "value": "[name=\"mobile_phone\"]"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:437 http://127.0.0.1:52125 "POST /session/adbceb2cc67295837837290e1e20837b/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:custom_logger.py:70 [INFO 2019-12-10 21:35:25]Element Found with locator: mobile_phone locator_type name
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52125/session/adbceb2cc67295837837290e1e20837b/element/a6da701b-cf2a-4f79-bfe9-b8e6fee07fca/value {"text": "18365213525", "value": ["1", "8", "3", "6", "5", "2", "1", "3", "5", "2", "5"], "id": "a6da701b-cf2a-4f79-bfe9-b8e6fee07fca"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:437 http://127.0.0.1:52125 "POST /session/adbceb2cc67295837837290e1e20837b/element/a6da701b-cf2a-4f79-bfe9-b8e6fee07fca/value HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:custom_logger.py:70 [INFO 2019-12-10 21:35:25]Send data on element with locator: mobile_phone locator_type: name
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52125/session/adbceb2cc67295837837290e1e20837b/element {"using": "css selector", "value": "[name=\"email\"]"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:437 http://127.0.0.1:52125 "POST /session/adbceb2cc67295837837290e1e20837b/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:custom_logger.py:70 [INFO 2019-12-10 21:35:25]Element Found with locator: email locator_type name
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52125/session/adbceb2cc67295837837290e1e20837b/element/af5ad5e5-a011-4f8b-909f-3a32e633ef84/value {"text": "23213525@qq.com", "value": ["2", "3", "2", "1", "3", "5", "2", "5", "@", "q", "q", ".", "c", "o", "m"], "id": "af5ad5e5-a011-4f8b-909f-3a32e633ef84"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:437 http://127.0.0.1:52125 "POST /session/adbceb2cc67295837837290e1e20837b/element/af5ad5e5-a011-4f8b-909f-3a32e633ef84/value HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:custom_logger.py:70 [INFO 2019-12-10 21:35:26]Send data on element with locator: email locator_type: name
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52125/session/adbceb2cc67295837837290e1e20837b/element {"using": "css selector", "value": ".reg_btn"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:437 http://127.0.0.1:52125 "POST /session/adbceb2cc67295837837290e1e20837b/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:custom_logger.py:70 [INFO 2019-12-10 21:35:26]Element Found with locator: .reg_btn locator_type css
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52125/session/adbceb2cc67295837837290e1e20837b/element/b0b06098-432e-4211-a5d5-f37284ad8c9a/click {"id": "b0b06098-432e-4211-a5d5-f37284ad8c9a"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:437 http://127.0.0.1:52125 "POST /session/adbceb2cc67295837837290e1e20837b/element/b0b06098-432e-4211-a5d5-f37284ad8c9a/click HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:custom_logger.py:70 [INFO 2019-12-10 21:35:26]Clicked on element with locator: .reg_btn locator_type: css
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52125/session/adbceb2cc67295837837290e1e20837b/element {"using": "css selector", "value": ".site-nav-right.fr>a:nth-child(1)"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:437 http://127.0.0.1:52125 "POST /session/adbceb2cc67295837837290e1e20837b/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:custom_logger.py:70 [INFO 2019-12-10 21:35:31]Element Found with locator: .site-nav-right.fr>a:nth-child(1) locator_type css
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:52125/session/adbceb2cc67295837837290e1e20837b/element/46c562d1-b9b7-4703-ad78-f38bf3cfacba/text {"id": "46c562d1-b9b7-4703-ad78-f38bf3cfacba"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:437 http://127.0.0.1:52125 "GET /session/adbceb2cc67295837837290e1e20837b/element/46c562d1-b9b7-4703-ad78-f38bf3cfacba/text HTTP/1.1" 200 29
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:custom_logger.py:70 [INFO 2019-12-10 21:35:31]Getting text on element :: 
+[32mINFO    [0m root:custom_logger.py:70 [INFO 2019-12-10 21:35:31]The text is :: '您好 chen213525'
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52125/session/adbceb2cc67295837837290e1e20837b/element {"using": "css selector", "value": ".site-nav-right.fr>a:nth-child(2)"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:437 http://127.0.0.1:52125 "POST /session/adbceb2cc67295837837290e1e20837b/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:custom_logger.py:70 [INFO 2019-12-10 21:35:31]Element Found with locator: .site-nav-right.fr>a:nth-child(2) locator_type css
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52125/session/adbceb2cc67295837837290e1e20837b/element/8b1bcdd4-32f3-4e0e-939b-0080fe76cfca/click {"id": "8b1bcdd4-32f3-4e0e-939b-0080fe76cfca"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:437 http://127.0.0.1:52125 "POST /session/adbceb2cc67295837837290e1e20837b/element/8b1bcdd4-32f3-4e0e-939b-0080fe76cfca/click HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:custom_logger.py:70 [INFO 2019-12-10 21:35:32]Clicked on element with locator: .site-nav-right.fr>a:nth-child(2) locator_type: css

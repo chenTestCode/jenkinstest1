@@ -1,0 +1,36 @@
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52125/session/adbceb2cc67295837837290e1e20837b/url {"url": "http://127.0.0.1/index.php?m=user&c=public&a=reg"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:437 http://127.0.0.1:52125 "POST /session/adbceb2cc67295837837290e1e20837b/url HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52125/session/adbceb2cc67295837837290e1e20837b/element {"using": "css selector", "value": "[name=\"username\"]"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:437 http://127.0.0.1:52125 "POST /session/adbceb2cc67295837837290e1e20837b/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:custom_logger.py:70 [INFO 2019-12-10 21:35:53]Element Found with locator: username locator_type name
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52125/session/adbceb2cc67295837837290e1e20837b/element/f75a602e-004a-476f-9e1d-2c482544c26e/value {"text": "wewrrwe", "value": ["w", "e", "w", "r", "r", "w", "e"], "id": "f75a602e-004a-476f-9e1d-2c482544c26e"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:437 http://127.0.0.1:52125 "POST /session/adbceb2cc67295837837290e1e20837b/element/f75a602e-004a-476f-9e1d-2c482544c26e/value HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:custom_logger.py:70 [INFO 2019-12-10 21:35:53]Send data on element with locator: username locator_type: name
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52125/session/adbceb2cc67295837837290e1e20837b/element {"using": "css selector", "value": "[name=\"password\"]"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:437 http://127.0.0.1:52125 "POST /session/adbceb2cc67295837837290e1e20837b/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:custom_logger.py:70 [INFO 2019-12-10 21:35:53]Element Found with locator: password locator_type name
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52125/session/adbceb2cc67295837837290e1e20837b/element/978155fe-a761-467f-9283-ac252a0ea6c9/value {"text": "123wqertyu23456werty", "value": ["1", "2", "3", "w", "q", "e", "r", "t", "y", "u", "2", "3", "4", "5", "6", "w", "e", "r", "t", "y"], "id": "978155fe-a761-467f-9283-ac252a0ea6c9"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:437 http://127.0.0.1:52125 "POST /session/adbceb2cc67295837837290e1e20837b/element/978155fe-a761-467f-9283-ac252a0ea6c9/value HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:custom_logger.py:70 [INFO 2019-12-10 21:35:53]Send data on element with locator: password locator_type: name
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52125/session/adbceb2cc67295837837290e1e20837b/element {"using": "css selector", "value": "[name=\"userpassword2\"]"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:437 http://127.0.0.1:52125 "POST /session/adbceb2cc67295837837290e1e20837b/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:custom_logger.py:70 [INFO 2019-12-10 21:35:53]Element Found with locator: userpassword2 locator_type name
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52125/session/adbceb2cc67295837837290e1e20837b/element/b61f8ec3-677e-4608-9936-638b7be5c1ac/value {"text": "123456", "value": ["1", "2", "3", "4", "5", "6"], "id": "b61f8ec3-677e-4608-9936-638b7be5c1ac"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:437 http://127.0.0.1:52125 "POST /session/adbceb2cc67295837837290e1e20837b/element/b61f8ec3-677e-4608-9936-638b7be5c1ac/value HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:custom_logger.py:70 [INFO 2019-12-10 21:35:53]Send data on element with locator: userpassword2 locator_type: name
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:52125/session/adbceb2cc67295837837290e1e20837b/element {"using": "css selector", "value": ".registerform>ul>li:nth-child(2)>div>span.Validform_checktip"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:437 http://127.0.0.1:52125 "POST /session/adbceb2cc67295837837290e1e20837b/element HTTP/1.1" 200 88
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:custom_logger.py:70 [INFO 2019-12-10 21:35:55]Element Found with locator: .registerform>ul>li:nth-child(2)>div>span.Validform_checktip locator_type css
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:52125/session/adbceb2cc67295837837290e1e20837b/element/aa717925-2163-4e6e-80c1-3690bf8761cf/text {"id": "aa717925-2163-4e6e-80c1-3690bf8761cf"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:437 http://127.0.0.1:52125 "GET /session/adbceb2cc67295837837290e1e20837b/element/aa717925-2163-4e6e-80c1-3690bf8761cf/text HTTP/1.1" 200 43
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:custom_logger.py:70 [INFO 2019-12-10 21:35:55]Getting text on element :: 
+[32mINFO    [0m root:custom_logger.py:70 [INFO 2019-12-10 21:35:55]The text is :: '密码范围在6~15位之间！'

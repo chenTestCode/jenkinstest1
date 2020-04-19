@@ -1,0 +1,131 @@
+{
+  "uid" : "bc0c587617c24f07",
+  "name" : "test_passwordCon[uewiiew-76237ew-qwertyuio2345678-您两次输入的账号密码不一致！]",
+  "fullName" : "test_reg#test_passwordCon",
+  "historyId" : "a6f52a010de21f0f2fdeb15d271cc72c",
+  "time" : {
+    "start" : 1575984962605,
+    "stop" : 1575984965224,
+    "duration" : 2619
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start",
+    "time" : {
+      "start" : 1575984961925,
+      "stop" : 1575984962603,
+      "duration" : 678
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1575984961925,
+      "stop" : 1575984961925,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1575984919092,
+      "stop" : 1575984924221,
+      "duration" : 5129
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1acded47463f4830",
+      "name" : "log",
+      "source" : "1acded47463f4830.txt",
+      "type" : "text/plain",
+      "size" : 7482
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "注册模块确认密码功能"
+  }, {
+    "name" : "story",
+    "value" : "验证确认密码输入"
+  }, {
+    "name" : "tag",
+    "value" : "error"
+  }, {
+    "name" : "suite",
+    "value" : "test_reg"
+  }, {
+    "name" : "host",
+    "value" : "SC-201902191315"
+  }, {
+    "name" : "thread",
+    "value" : "12712-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_reg"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "msg",
+    "value" : "'您两次输入的账号密码不一致！'"
+  }, {
+    "name" : "password",
+    "value" : "'76237ew'"
+  }, {
+    "name" : "password2",
+    "value" : "'qwertyuio2345678'"
+  }, {
+    "name" : "usuranme",
+    "value" : "'uewiiew'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "error" ]
+  },
+  "source" : "bc0c587617c24f07.json",
+  "parameterValues" : [ "'您两次输入的账号密码不一致！'", "'76237ew'", "'qwertyuio2345678'", "'uewiiew'" ]
+}

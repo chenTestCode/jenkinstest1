@@ -1,0 +1,131 @@
+{
+  "uid" : "e3c9267c1e7a8c73",
+  "name" : "test_passwordCon[tytyew-1223456--请确认密码]",
+  "fullName" : "test_reg#test_passwordCon",
+  "historyId" : "09c02585e8b06a3123103736e6e16fa3",
+  "time" : {
+    "start" : 1575984956195,
+    "stop" : 1575984958758,
+    "duration" : 2563
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "start",
+    "time" : {
+      "start" : 1575984955544,
+      "stop" : 1575984956193,
+      "duration" : 649
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1575984919092,
+      "stop" : 1575984924221,
+      "duration" : 5129
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1575984955544,
+      "stop" : 1575984955544,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7b56f43d152c8a2f",
+      "name" : "log",
+      "source" : "7b56f43d152c8a2f.txt",
+      "type" : "text/plain",
+      "size" : 7355
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "注册模块确认密码功能"
+  }, {
+    "name" : "story",
+    "value" : "验证确认密码输入"
+  }, {
+    "name" : "tag",
+    "value" : "error"
+  }, {
+    "name" : "suite",
+    "value" : "test_reg"
+  }, {
+    "name" : "host",
+    "value" : "SC-201902191315"
+  }, {
+    "name" : "thread",
+    "value" : "12712-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_reg"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "msg",
+    "value" : "'请确认密码'"
+  }, {
+    "name" : "password",
+    "value" : "'1223456'"
+  }, {
+    "name" : "password2",
+    "value" : "''"
+  }, {
+    "name" : "usuranme",
+    "value" : "'tytyew'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "error" ]
+  },
+  "source" : "e3c9267c1e7a8c73.json",
+  "parameterValues" : [ "'请确认密码'", "'1223456'", "''", "'tytyew'" ]
+}
